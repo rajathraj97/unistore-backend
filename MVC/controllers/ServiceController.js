@@ -1,5 +1,5 @@
 const Service = require("../models/ServiceModel");
-const pick = require("../../../node_modules/lodash/pick");
+const pick = require("../../node_modules/lodash/pick");
 const serviceCtlr = {};
 
 serviceCtlr.create = async (req, res) => {

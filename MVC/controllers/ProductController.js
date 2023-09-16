@@ -1,5 +1,5 @@
 const Product = require('../models/ProductsModel')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 var AWS = require('aws-sdk');
 const s3Uploadv2 = require('../../AWS/s3Service')
 const productCtlr = {}

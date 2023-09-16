@@ -2,7 +2,7 @@ const accountSid = process.env.ACCOUNT_ID;
 const authToken = process.env.AUTH_TOKEN;
 const client = require('twilio')(accountSid, authToken);
 const message = {}
-const pick = require("../../node_modules/lodash/pick")
+const pick = require("../node_modules/lodash/pick")
 
 message.create = async(req,res) =>{
     try{

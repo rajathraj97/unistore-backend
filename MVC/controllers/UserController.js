@@ -1,7 +1,7 @@
 const User = require('../models/UserModel')
-const pick = require('../../../node_modules/lodash/pick')
-const bcrypt = require('bcryptjs')
-const jwt = require('jsonwebtoken')
+const pick = require('../../node_modules/lodash/pick')
+const bcrypt = require('../../node_modules/bcryptjs')
+const jwt = require('../../node_modules/jsonwebtoken')
 require('dotenv').config()
 const accountSid = process.env.ACCOUNT_ID;
 const authToken = process.env.AUTH_TOKEN;

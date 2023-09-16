@@ -1,5 +1,5 @@
 const Order = require('../models/OrderModel')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 const orderCtlr = { }
 
 orderCtlr.create = async(req,res) =>{

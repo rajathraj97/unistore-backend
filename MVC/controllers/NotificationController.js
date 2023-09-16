@@ -1,5 +1,5 @@
 const Notification = require('../models/Notification')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 
 const notificationController = {}
 

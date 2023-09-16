@@ -1,5 +1,5 @@
 const Cart = require('../models/CartModel')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 const Spare = require('../models/SpareParts')
 const cartCtlr = {}
 

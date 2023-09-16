@@ -1,5 +1,5 @@
 const Category = require("../models/CategoryModel");
-const pick = require("../../../node_modules/lodash/pick");
+const pick = require("../../node_modules/lodash/pick");
 const categoryctlr = {};
 
 categoryctlr.create = async (req, res) => {

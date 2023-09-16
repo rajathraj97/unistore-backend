@@ -1,5 +1,5 @@
 const Review = require('../models/ReviewModel')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 const reviewCtlr = {}
 
 reviewCtlr.create = async(req,res) =>{

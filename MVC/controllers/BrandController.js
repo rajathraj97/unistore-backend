@@ -1,6 +1,6 @@
 const Brand = require('../models/BrandModel')
 const brandCtlr = {}
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 
 brandCtlr.create = async (req,res)=>{
     try{

@@ -1,5 +1,5 @@
 const Spare = require('../models/SpareParts')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 const s3Uploadv2 = require('../../AWS/s3Service')
 const spareCtlr = {}
 

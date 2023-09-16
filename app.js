@@ -1,5 +1,5 @@
-const express = require("../node_modules/express");
-const cors = require("../node_modules/cors");
+const express = require("./node_modules/express");
+const cors = require("./node_modules/cors");
 const configureDb = require("./Database/db");
 const brandCtlr = require("./MVC/controllers/BrandController");
 const userCtlr = require("./MVC/controllers/UserController");

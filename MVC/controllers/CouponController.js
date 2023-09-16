@@ -1,5 +1,5 @@
 const Coupon = require('../models/CouponModel')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 const couponCtlr = {}
 
 couponCtlr.create = async(req,res)=>{

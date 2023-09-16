@@ -1,5 +1,5 @@
 const Enquiry = require('../models/EnquiryModel')
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 const enquiryCtlr = {}
 
 enquiryCtlr.create = async(req,res)=>{

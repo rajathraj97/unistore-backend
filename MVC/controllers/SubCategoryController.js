@@ -1,6 +1,6 @@
 const SubCategory = require('../models/SubCategoryModel')
 
-const pick = require('../../../node_modules/lodash/pick')
+const pick = require('../../node_modules/lodash/pick')
 const subCategoryCtlr = {}
 
 subCategoryCtlr.create = async(req,res) =>{

@@ -1,5 +1,5 @@
 let nodemailer = require("nodemailer");
-const pick = require("../../node_modules/lodash/pick")
+const pick = require("../node_modules/lodash/pick")
 require('dotenv').config()
 const mailer={}
 
