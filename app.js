@@ -191,6 +191,7 @@ app.delete(
 );
 app.get("/api/getspares", spareCtlr.get);
 app.get("/api/getspares/:id", spareCtlr.getOne);
+app.get("/api/getdetails",spareCtlr.getDetails)
 
 //Cart-Model
 app.post("/api/addproductscart", cartCtlr.add);

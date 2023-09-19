@@ -66,4 +66,23 @@ spareCtlr.getOne = async(req,res) =>{
     }
 }
 
+spareCtlr.getDetails = async(req,res) =>{
+    try{
+        const data = await Spare.aggregate([
+            {$match:{stock:{$gte:10}}},
+            {$group:{_id:null,
+            avgstock:{$avg:"$stock"}
+            
+        }},
+        
+           
+        ])
+        console.log(data)
+        res.json(data)
+    }
+    catch(e){
+        res.json(e)
+    }
+}
+
 module.exports = spareCtlr
