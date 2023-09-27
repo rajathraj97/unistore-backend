@@ -41,5 +41,11 @@ const spareSchema = new Schema({
     ]
 },{timestamps:true})
 
+spareSchema.pre('save',function(next){
+    if(this.price > 0){
+        next()
+    }
+})
+
 const Spare = mongoose.model('Spare',spareSchema)
 module.exports = Spare
